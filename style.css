@@ -1,0 +1,188 @@
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .nav {
+        width: 100%;
+        display: flex;
+        align-items: end;
+        padding-top: 20px;
+        justify-content: space-around;
+        border-bottom: 3px solid rgb(184, 12, 12);
+        background-image: linear-gradient( to bottom, white, rgb(226, 223, 223));
+        padding-right: 20%;
+        box-sizing: border-box;
+    }
+    
+    .navleft {
+        margin-left: 100px;
+        text-transform: capitalize;
+        height: 150px;
+    }
+    
+    .navside {
+        display: flex;
+        justify-content: start;
+        align-items: end;
+        width: 75%;
+        padding: 5px 14px;
+        margin-left: 10%;
+    }
+    
+    .mix {
+        display: flex;
+        align-items: center;
+    }
+    
+    .h3 {
+        text-transform: uppercase;
+        color: rgb(12, 5, 75);
+        font-size: 13px;
+        background-color: rgb(209, 209, 211);
+        padding: 7px;
+        height: 36px;
+        width: 150px;
+    }
+    
+    .under {
+        background-color: white;
+        border: 1px solid rgb(216, 216, 244);
+        padding: 4px;
+        font-size: 14.5px;
+        width: 800px;
+        height: 40px;
+    }
+    
+    .span {
+        color: blue;
+        margin-right: 20px;
+    }
+    
+    .mix a {
+        color: black;
+        text-transform: capitalize;
+    }
+    
+    .mix a p {
+        margin-right: 15px;
+    }
+    
+    .mix a h4 {
+        color: rgb(185, 170, 170);
+    }
+    
+    .more a h3 {
+        margin-left: 200px;
+        font-size: 13px;
+    }
+    
+    .mid {
+        width: 75%;
+        margin-left: 300px;
+        margin-top: 20px;
+    }
+    
+    .midtotal {
+        display: flex;
+        border: 3px solid black;
+        justify-content: space-between;
+        width: 55%;
+        margin: 3% auto 2%;
+    }
+    
+    .midlist {
+        margin: 10px 0 0 30px;
+    }
+    
+    .list {
+        display: flex;
+        margin: 5% 15% 10% 4%;
+        font-size: 18px;
+        text-transform: capitalize;
+        width: 100%;
+        gap: 50px;
+    }
+    
+    li a p {
+        color: rgb(94, 91, 91);
+        line-height: 25px;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a p:hover {
+        color: red;
+    }
+    
+    .midtotal img {
+        border-left: 2px solid black;
+        width: 35%;
+    }
+    
+    .lower {
+        margin-left: 500px;
+    }
+    
+    .h4 {
+        margin-left: 530px;
+    }
+    
+    .footer {
+        border-top: 4px solid rgb(204, 10, 10);
+        padding-top: 30px;
+        margin-top: 10px;
+        background-color: rgb(60, 58, 58);
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        gap: 10%;
+        color: white;
+        box-sizing: border-box;
+        width: 100%;
+    }
+    
+    .last p {
+        color: rgb(108, 106, 106);
+    }
+    
+    .h2 {
+        color: white;
+        text-transform: uppercase;
+    }
+    
+    .last p:hover {
+        color: white;
+    }
+    
+    .list2 {
+        border-top: 2px solid white;
+        margin-top: 15px;
+        padding-top: 20px;
+        font-size: 14px;
+    }
+    
+    .list2 a p {
+        line-height: 15px;
+    }
+    
+    .myself {
+        background-color: rgb(60, 58, 58);
+        padding-bottom: 50px;
+        color: rgb(231, 207, 31);
+        font-size: 25px;
+        text-align: center;
+        box-sizing: border-box;
+        padding-top: 50px;
+    }
+    
+    .myself a {
+        color: rgb(231, 207, 31);
+    }
+    
+    .myself a:hover {
+        color: rgb(72, 50, 195);
+        text-decoration: underline;
+    }
